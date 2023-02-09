@@ -6,6 +6,7 @@ use nix::sys::stat::Mode;
 
 use super::EngineError;
 
+pub mod aio;
 pub mod block_device;
 pub mod default_engine;
 pub trait StorageEngine {
